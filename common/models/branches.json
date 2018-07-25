@@ -1,0 +1,30 @@
+{
+  "name": "branches",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "range_start": {
+      "type": "number"
+    },
+    "range_finish": {
+      "type": "number"
+    },
+    "children": {
+      "type": "number"
+    },
+    "timestamp": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
