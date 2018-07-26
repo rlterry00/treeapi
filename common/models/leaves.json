@@ -16,7 +16,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "leaves_id": {
+      "type": "belongsTo",
+      "model": "branches",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

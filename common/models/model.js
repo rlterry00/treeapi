@@ -31,15 +31,6 @@ var schema_v1 = {
   }
 };
 
-var ds = Model.app.dataSources.oracle;
-
-ds.createModel(schema_v1.name, schema_v1.properties, schema_v1.options);
-
-ds.automigrate(function () {
-  ds.discoverModelProperties('branches', function (err, props) {
-    console.log(props);
-  });
-});
 
 var schema_v2 = {
   'name': 'leaves',
@@ -61,7 +52,7 @@ var schema_v2 = {
   }
 };
 
-var ds = Model.app.dataSources.oracle;
+var ds = Model.app.dataSources.db;
 
 ds.createModel(schema_v2.name, schema_v2.properties, schema_v2.options);
 
