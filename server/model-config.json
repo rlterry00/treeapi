@@ -38,9 +38,5 @@
   "branches": {
     "dataSource": "db",
     "public": true
-  },
-  "leaves": {
-    "dataSource": "db",
-    "public": true
   }
 }

@@ -3,10 +3,10 @@
     "host": "localhost",
     "port": 3306,
     "url": "",
-    "database": "",
+    "database": "rlterrya_tree_api",
     "password": "",
     "name": "db",
-    "user": "",
+    "user": "rlterrya_rlterry00",
     "connector": "mysql"
   }
 }

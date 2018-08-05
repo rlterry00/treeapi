@@ -1,5 +1,5 @@
 {
-  "name": "treeapi",
+  "name": "treebackup",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
@@ -13,7 +13,6 @@
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.5.2",
-    "dotenv": "^6.0.0",
     "helmet": "^3.10.0",
     "loopback": "^3.19.0",
     "loopback-boot": "^2.6.5",
@@ -32,5 +31,5 @@
     "url": ""
   },
   "license": "UNLICENSED",
-  "description": "treeapi"
+  "description": "treebackup"
 }
